@@ -1,8 +1,8 @@
 {
-    "name": "Telethon Music Bot",
+    "name": "ɴɪxᴀ ᴍᴜsɪᴄ ʙᴏᴛ",
     "description": "Music allow you to stream music trought the telegram voice chat feature Based on Telethon.",
-    "keywords": ["Zaid", "Zaid-Vc-Player", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music"],
-    "repository": "https://github.com/ITZ-ZAID/Telethon-Music",
+    "keywords": ["NIXA", "Nixa-Music-Bot", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music"],
+    "repository": "https://github.com/Zebra012/NixaMusicBot",
   "stack": "container",
     "env": {
         "STRING_SESSION": {
