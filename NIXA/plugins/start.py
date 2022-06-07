@@ -4,7 +4,7 @@ from Config import BOT_USERNAME
 
 @NIXA.on(events.NewMessage(incoming=True, pattern="/start"))
 async def start(event):
-    await event.reply("ʜᴇʟʟᴏ[❣️](), ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴍᴜsɪᴄ ʙᴏᴛ
+    await event.reply("ʜᴇʟʟᴏ[❣️](https://telegra.ph/file/987e34d64fdc702689e81.jpg), ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴍᴜsɪᴄ ʙᴏᴛ
 ᴀɴᴅ ɴᴏ ʟᴀɢ ɪssᴜᴇ ᴡɪᴛʜ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs. ᴛʜɪs ᴍᴜsɪᴄ ʙᴏᴛ ʙᴀsᴇᴅ ᴏɴ ᴛᴇʟᴇᴛʜᴏɴ
  ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ sᴜᴍɪᴛ ʏᴀᴅᴀᴠ...",
                     buttons=[
