@@ -3,14 +3,14 @@
 
 import glob
 from pathlib import Path
-from Zaid.utils import load_plugins
+from NIXA.utils import load_plugins
 import logging
-from Zaid import Zaid
+from NIXA import NIXA
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.INFO)
 
-path = "Zaid/plugins/*.py"
+path = "NIXA/plugins/*.py"
 files = glob.glob(path)
 for name in files:
     with open(name) as a:
@@ -18,8 +18,8 @@ for name in files:
         plugin_name = patt.stem
         load_plugins(plugin_name.replace(".py", ""))
     
-print("Successfully Started Bot!")
-print("Visit @TheUpdatesChannel")
+print("» sᴜᴄᴄᴇssғᴜʟʟʏ sᴛᴀʀᴛᴇᴅ ʙᴏᴛ...")
+print("» ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴛʜᴇsᴇ ᴄʜᴀɴɴᴇʟ @TechQuard")
 
 if __name__ == "__main__":
-    Zaid.run_until_disconnected()
+    NIXA.run_until_disconnected()
