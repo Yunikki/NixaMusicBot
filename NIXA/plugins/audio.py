@@ -14,7 +14,7 @@ from pytgcalls.exceptions import (
     NoActiveGroupCall,
     NotInGroupCallError
 )
-from Zaid.status import *
+from NIXA.status import *
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.functions.messages import ExportChatInviteRequest
 import telethon.utils
@@ -25,13 +25,13 @@ from telethon.tl.functions.users import GetFullUserRequest
 from youtubesearchpython import VideosSearch
 
  
-fotoplay = "https://telegra.ph/file/fbdff93b72dac4e43a9af.png"
-ngantri = "https://telegra.ph/file/fbdff93b72dac4e43a9af.png"
-from Zaid import call_py, Zaid, client as Client
-owner = "1669178360"
-from Zaid.helpers.yt_dlp import bash
-from Zaid.helpers.chattitle import CHAT_TITLE
-from Zaid.helpers.queues import (
+fotoplay = "https://telegra.ph/file/987e34d64fdc702689e81.jpg"
+ngantri = "https://telegra.ph/file/987e34d64fdc702689e81.jpg"
+from NIXA import call_py, NIXA, client as Client
+owner = "5576613955, 5417532619"
+from NIXA.helpers.yt_dlp import bash
+from NIXA.helpers.chattitle import CHAT_TITLE
+from NIXA.helpers.queues import (
     QUEUE,
     add_to_queue,
     clear_queue,
@@ -40,7 +40,7 @@ from Zaid.helpers.queues import (
 )
 from telethon import Button, events
 
-from Zaid.helpers.thumbnail import gen_thumb
+from NIXA.helpers.thumbnail import gen_thumb
 
 
 def vcmention(user):
@@ -118,14 +118,14 @@ async def skip_current_song(chat_id: int):
     return [songname, link, type]
 
 
-@Zaid.on(events.callbackquery.CallbackQuery(data="cls"))
+@NIXA.on(events.callbackquery.CallbackQuery(data="cls"))
 async def _(event):
 
      await event.delete()
 
 btnn =[
-    [Button.url("💁 Sᴜᴘᴘᴏʀᴛ", url="t.me/TheSupportChat"), Button.url("Cʜᴀɴɴᴇʟ 🙋", url="t.me/TheUpdatesChannel")],
-    [Button.inline("Cʟᴏꜱᴇ 🗑️", data="cls")]]
+    [Button.url("• sᴜᴘᴘᴏʀᴛ •", url="https://t.me/TechQuardSupport"), Button.url("• ᴜᴘᴅᴀᴛᴇs •", url="https://t.me/TechQuard")],
+    [Button.inline("» ᴄʟᴏsᴇ «", data="cls")]]
 
 
 #play
