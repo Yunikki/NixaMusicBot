@@ -1,5 +1,6 @@
 from NIXA import NIXA
 from telethon import events, Button
+from Config import BOT_USERNAME
 
 @NIXA.on(events.NewMessage(incoming=True, pattern="/start"))
 async def start(event):
@@ -8,7 +9,7 @@ async def start(event):
  ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ sᴜᴍɪᴛ ʏᴀᴅᴀᴠ...",
                     buttons=[
                         [
-                          Button.url("➕ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url="https://t.me/TheSupportChat")],
+                          Button.url("➕ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url="https://t.me/{BOT_USERNAME}?startgroup=true")],
                        ],
                        [
                           Button.url("• sᴜᴘᴘᴏʀᴛ •", url="https://t.me/TechQuardSupport"),
