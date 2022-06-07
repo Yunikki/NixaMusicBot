@@ -2,21 +2,24 @@ import os
 
 from telethon import Button, events
 
-from Zaid import *
+from NIXA import *
 
 IMG = os.environ.get(
-    "PING_PIC", "https://telegra.ph/file/5edf1b910c71e385e5d57.jpg"
+    "PING_PIC", "https://telegra.ph/file/ed8051b0e0a2f844b2373.jpg"
 )
 ms = 4
 
 ALIVE = os.environ.get(
-    "ALIVE", "@Timesisnotwaiting"
+    "ALIVE", "@Simple_Mundaa"
 )
 
-CAPTION = f"**꧁•⊹٭Ping٭⊹•꧂**\n\n   ⚜ {ms}\n   ⚜ ❝𝐌𝐲 𝐌𝐚𝐬𝐭𝐞𝐫❞ ~『{ALIVE}』"
+CAPTION = f"**𝗣 𝗢 𝗡 𝗚 😂 **\n\n   » {ms}\n   » ᴍʏ ᴍᴀsᴛᴇʀ ~『{ALIVE}』"
 
 
-@Zaid.on(events.NewMessage(pattern="^/ping"))
+@NIXA.on(events.NewMessage(pattern="^/ping"))
 async def _(event):
-    UMM = [[Button.url("⚜ Cԋαɳɳҽʅ ⚜", "https://t.me/TheUpdatesChannel")]]
-    await Zaid.send_file(event.chat_id, IMG, caption=CAPTION, buttons=UMM)
+    UMM = [[
+             Button.url("• sᴜᴘᴘᴏʀᴛ •", url="https://t.me/TechQuardSupport"),
+             Button.url("• ᴜᴘᴅᴀᴛᴇs •", url="https://t.me/TechQuard")
+                       ]]
+    await NIXA.send_file(event.chat_id, IMG, caption=CAPTION, buttons=UMM)
