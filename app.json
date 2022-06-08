@@ -19,6 +19,11 @@
             "required": false,
             "value": "4e984ea35f854762dcde906dce426c2d"
         },
+         "BOT_USERNAME": {
+            "description": "bot username without @",
+            "required": false,
+            "value": ""
+        },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
             "required": true,
