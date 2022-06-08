@@ -440,7 +440,7 @@ async def vc_playlist(event, perm):
 
 
 #leavevc
-@NIX.on(events.NewMessage(pattern="^/leavevc"))
+@NIXA.on(events.NewMessage(pattern="^/leavevc"))
 @is_admin
 async def leavevc(event, perm):
     xnxx = await event.reply("ᴘʀᴏᴄᴇssɪɴɢ...")
