@@ -12,22 +12,22 @@
         "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
             "required": true,
-            "value": "6435225"
+            "value": "8024944"
         },
         "API_HASH": {
             "description": "your Api Hash from my.telegram.org/apps",
             "required": false,
-            "value": "4e984ea35f854762dcde906dce426c2d"
+            "value": "7bb652e442a04ca91823b5df1d3e34e3"
         },
          "BOT_USERNAME": {
             "description": "bot username without @",
             "required": false,
-            "value": ""
+            "value": "NixaMusic2Bot"
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
             "required": true,
-            "value": ""
+            "value": "5446003696:AAH4iglisSeoS4ys0Z0BTtA_WVdZVk1muB8"
         }
 
     }
