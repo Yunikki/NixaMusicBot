@@ -8,7 +8,7 @@ import os.path
 from PIL import Image
 from yt_dlp import YoutubeDL
 from typing import Optional, Union
-from Zaid import Zaid as bot
+from NIXA import NIXA as bot
 LOGS = {}
 SUDO_USERS = {}
 
@@ -35,8 +35,6 @@ async def is_admin(chat_id, user_id):
 
 
 
-
-# https://github.com/TeamUltroid/pyUltroid/blob/31c271cf4d35ab700e5880e952e54c82046812c2/pyUltroid/functions/helper.py#L154
 
 
 async def bash(cmd):
