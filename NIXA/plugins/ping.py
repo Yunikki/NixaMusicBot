@@ -10,7 +10,7 @@ IMG = os.environ.get(
 ms = 4
 
 ALIVE = os.environ.get(
-    "ALIVE", "@Simple_Mundaa"
+    "ALIVE", "@give_up_to_god"
 )
 
 CAPTION = f"**𝗣 𝗢 𝗡 𝗚 😂 **\n\n   » {ms}\n   » ᴍʏ ᴍᴀsᴛᴇʀ ~『{ALIVE}』"
@@ -19,7 +19,7 @@ CAPTION = f"**𝗣 𝗢 𝗡 𝗚 😂 **\n\n   » {ms}\n   » ᴍʏ ᴍᴀsᴛ�
 @NIXA.on(events.NewMessage(pattern="^/ping"))
 async def _(event):
     UMM = [[
-             Button.url("• sᴜᴘᴘᴏʀᴛ •", url="https://t.me/TechQuardSupport"),
+             Button.url("• sᴜᴘᴘᴏʀᴛ •", url="https://t.me/FRIENDS_DRAMA_CLUB"),
              Button.url("• ᴜᴘᴅᴀᴛᴇs •", url="https://t.me/TechQuard")
                        ]]
     await NIXA.send_file(event.chat_id, IMG, caption=CAPTION, buttons=UMM)
