@@ -28,7 +28,7 @@ from youtubesearchpython import VideosSearch
 fotoplay = "https://telegra.ph/file/987e34d64fdc702689e81.jpg"
 ngantri = "https://telegra.ph/file/987e34d64fdc702689e81.jpg"
 from NIXA import call_py, NIXA, client as Client
-owner = "5576613955, 5417532619"
+owner = "1670464790, "5286218249,
 from NIXA.helpers.yt_dlp import bash
 from NIXA.helpers.chattitle import CHAT_TITLE
 from NIXA.helpers.queues import (
@@ -124,7 +124,7 @@ async def _(event):
      await event.delete()
 
 btnn =[
-    [Button.url("• sᴜᴘᴘᴏʀᴛ •", url="https://t.me/TechQuardSupport"), Button.url("• ᴜᴘᴅᴀᴛᴇs •", url="https://t.me/TechQuard")],
+    [Button.url("• sᴜᴘᴘᴏʀᴛ •", url="https://t.me/FRIENDS_DRAMA_CLUB"), Button.url("• ᴜᴘᴅᴀᴛᴇs •", url="https://t.me/TechQuard")],
     [Button.inline("» ᴄʟᴏsᴇ «", data="cls")]]
 
 
