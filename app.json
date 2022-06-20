@@ -2,7 +2,7 @@
     "name": "ɴɪxᴀ ᴍᴜsɪᴄ ʙᴏᴛ",
     "description": "Music allow you to stream music trought the telegram voice chat feature Based on Telethon.",
     "keywords": ["NIXA", "Nixa-Music-Bot", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music"],
-    "repository": "https://github.com/Zebra012/NixaMusicBot",
+    "repository": "https://github.com/Huvaris",
   "stack": "container",
     "env": {
         "STRING_SESSION": {
