@@ -3,7 +3,7 @@
 
 ### ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ
 
-[![ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Zebra012/NixaMusicBot)
+[![ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Huvaris)
 
 
 Note: This Code Based On Telethon So You need Telethon String Session And A bot token from @botfather 
@@ -31,8 +31,7 @@ python3 -m NIXA # run the bot.
 
 <p align="center">𝚂𝚞𝚙𝚙𝚘𝚛𝚝 / 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 ----> </p>
 
-<p align="center"><a href="https://t.me/TechQuardSupport"><img src="https://img.shields.io/badge/ᴛᴇʟᴇɢʀᴀᴍ-𝐒𝐮𝐩𝐩𝐨𝐫𝐭-black?&style=for-the-badge&logo=telegram" width="220" height="38.45"></a></p>
-<p align="center"><a href="https://t.me/TechQuard"><img src="https://img.shields.io/badge/ᴛᴇʟᴇɢʀᴀᴍ-𝐔𝐩𝐝𝐚𝐭𝐞𝐬-black?&style=for-the-badge&logo=telegram" width="220" height="38.45"></a></p>
+<p align="center"><a href="https://t.me/FREINDS_DRAMA_CLUB"><img src="https://img.shields.io/badge/ᴛᴇʟᴇɢʀᴀᴍ-𝐒𝐮𝐩𝐩𝐨𝐫𝐭-black?&style=for-the-badge&logo=telegram" width="220" height="38.45"></a></p>
 
 # Creadits
 - Man Userbot
